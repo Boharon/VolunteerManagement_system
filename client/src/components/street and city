@@ -1,0 +1,26 @@
+                        <FormControl style={fieldStyle} variant="outlined" fullWidth /*className={classes.formControl}*/>
+                                <InputLabel id="demo-simple-select-label">Street</InputLabel>
+                                <Select
+                                    labelId="demo-simple-select-label"
+                                    id="street"
+                                    value={this.state.street}
+                                    onChange={this.onChangeStreet}
+                                >
+                                      {this.state.streetItem}
+                                </Select>
+                            </FormControl>
+
+
+                            <FormControl style={fieldStyle} variant="outlined" fullWidth/*className={classes.formControl}*/>
+                                <InputLabel id="demo-simple-select-label">City</InputLabel>
+                                <Select
+                                    labelId="demo-simple-select-label"
+                                    id="city"
+                                    value={this.state.city}
+                                    onChange={this.onChangeCity}
+
+                                    >
+                                    {cityItem}
+
+                                </Select>
+                            </FormControl>
